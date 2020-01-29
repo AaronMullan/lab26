@@ -18,7 +18,7 @@ export default class Character extends Component {
     const { img, alt, name, id, status, species, gender, origin, location } =  this.props;
     return (
       <article className={styles.characterCard__Wrapper}>
-        <div data="card header" className="characterCard__ImgWrapper-sc-1ejywvi-1 eUyUcB">
+        <div data="card header" className={styles.characterCard__Header}>
           <div className="card-image"><img src={img} alt={alt}></img>
           </div>
           <div className="characterCard__Title">
@@ -26,7 +26,7 @@ export default class Character extends Component {
             <p className="characterCard__Description-sc-1ejywvi-5 dSyDU">id: {id}</p>
           </div>
         </div>
-        <div data="card info" className="characterCard__InfoWrapper-sc-1ejywvi-2 XgbIp">
+        <div data="card info" className={styles.characterCard__InfoWrapper}>
           <div className="characterCard__TextWrapper-sc-1ejywvi-6 kYFLaT">
             <span>STATUS</span><p>{status}</p></div>
           <div className="characterCard__TextWrapper-sc-1ejywvi-6 kYFLaT">

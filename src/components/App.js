@@ -9,7 +9,6 @@ class App extends Component {
     return (
       <>
         <Header />
-        <Footer />
         <div className={styles.Wrapper}>
           <Character img="https://rickandmortyapi.com/api/character/avatar/130.jpeg" alt="Galactic Federation President" name="Ultraname" id="666" status="undead" species="burner" gender="whatever" origin="parts unknown" location="Crater Lake"/>
           <Character img="https://rickandmortyapi.com/api/character/avatar/131.jpeg" alt="Galactic Federation President" name="Ultraname" id="666" status="undead" species="burner" gender="whatever" origin="parts unknown" location="Crater Lake"/>
@@ -20,6 +19,7 @@ class App extends Component {
           <Character img="https://rickandmortyapi.com/api/character/avatar/136.jpeg" alt="Galactic Federation President" name="Ultraname" id="666" status="undead" species="burner" gender="whatever" origin="parts unknown" location="Crater Lake"/>
           <Character img="https://rickandmortyapi.com/api/character/avatar/137.jpeg" alt="Galactic Federation President" name="Ultraname" id="666" status="undead" species="burner" gender="whatever" origin="parts unknown" location="Crater Lake"/>
         </div>
+        <Footer />
       </>
     );
   }
