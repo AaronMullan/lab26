@@ -1,40 +1,30 @@
-import React from 'react';
+import React, { Component } from 'react';
+import Header from './Header';
+import Footer from './Footer';
+import Character from './Character';
 import styles from './App.css';
 
-const Header = () => (
-  <header className={styles.Header}>
-    <nav>
-      <ul>
-        <li><a className={styles.active} href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Documentation</a></li>
-      </ul>
-    </nav>
-    <section>
-      <h1>The Rick And Morty Api</h1>
-      <h2>Hey, did you ever want to hold a Terry fold?</h2>
-    </section>
-  </header>
-);
-
-const Footer = () => (
-  <footer className={styles.Footer}>
-    <section className={styles.stats}>
-      <p>Characters: 493</p>
-      <p>Locations: 76</p>
-      <p>Episodes: 31</p>
-    </section>
-    <section className={styles.acknowledgment}>
-      <p>❮❯ by <a href="#">Axel Fuhrmann</a> 2020</p>
-    </section>
-  </footer>
-);
-
-const App = () => (
-  <React.Fragment>
-    <Header />
-    <Footer />
-  </React.Fragment>
-);
+class App extends Component {
+  render() {
+    return (
+      <>
+        <Header />
+        <div className={styles.Wrapper}>
+          <Character img="https://rickandmortyapi.com/api/character/avatar/130.jpeg" alt="Galactic Federation President" name="Ultraname" id="666" status="undead" species="burner" gender="whatever" origin="parts unknown" location="Crater Lake"/>
+          <Character img="https://rickandmortyapi.com/api/character/avatar/131.jpeg" alt="Galactic Federation President" name="Ultraname" id="666" status="undead" species="burner" gender="whatever" origin="parts unknown" location="Crater Lake"/>
+          <Character img="https://rickandmortyapi.com/api/character/avatar/132.jpeg" alt="Galactic Federation President" name="Ultraname" id="666" status="undead" species="burner" gender="whatever" origin="parts unknown" location="Crater Lake"/>
+          <Character img="https://rickandmortyapi.com/api/character/avatar/133.jpeg" alt="Galactic Federation President" name="Ultraname" id="666" status="undead" species="burner" gender="whatever" origin="parts unknown" location="Crater Lake"/>
+          <Character img="https://rickandmortyapi.com/api/character/avatar/134.jpeg" alt="Galactic Federation President" name="Ultraname" id="666" status="undead" species="burner" gender="whatever" origin="parts unknown" location="Crater Lake"/>
+          <Character img="https://rickandmortyapi.com/api/character/avatar/135.jpeg" alt="Galactic Federation President" name="Ultraname" id="666" status="undead" species="burner" gender="whatever" origin="parts unknown" location="Crater Lake"/>
+          <Character img="https://rickandmortyapi.com/api/character/avatar/136.jpeg" alt="Galactic Federation President" name="Ultraname" id="666" status="undead" species="burner" gender="whatever" origin="parts unknown" location="Crater Lake"/>
+          <Character img="https://rickandmortyapi.com/api/character/avatar/137.jpeg" alt="Galactic Federation President" name="Ultraname" id="666" status="undead" species="burner" gender="whatever" origin="parts unknown" location="Crater Lake"/>
+        </div>
+        <Footer />
+      </>
+    );
+  }
+}
 
 export default App;
+
+// { img, alt, name, id, status, species, gender, origin, location }

@@ -46,13 +46,48 @@
     }
   }
 }
-
+.Wrapper{
+  display: flex;
+  flex-wrap: wrap;
+ justify-content: space-between;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  min-height: calc(60vh - 80px);
+  padding: 1.875rem;
+  background: rgb(32, 35, 41);
+  font-family: 'Segoe UI','Roboto','Helvetica','Arial', sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
+  color: #FF9800;
+  size: 14.4px;
+  span {color: #9E9E9E; size: 11.2px;}
+}
+.characterCard__Wrapper{
+  
+  max-width: 300px;
+  min-width: 300px;
+  margin: 5px;
+  margin-bottom: 0.625rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 2px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  border-radius: 0.625rem;
+  overflow: hidden;
+  background-color: #333333;
+  .charCard_Header{
+    background-color: cyan;
+  }
+}
+.characterCard__InfoWrapper{
+  display: block;
+  justify-content: space-between;
+  text-align: right;
+}
+  
 .Footer {
   overflow: hidden;
   padding: 1rem;
   background-color: rgb(32, 35, 41);
   color: rgb(158, 158, 158);
-  font-size: 1.5rem;
+  font-size: 14;
 
   .stats {
     display: flex;

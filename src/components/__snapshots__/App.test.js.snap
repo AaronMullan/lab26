@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component renders App 1`] = `
+<Fragment>
+  <Header />
+  <div
+    className="Wrapper"
+  >
+    <Character
+      alt="Galactic Federation President"
+      gender="whatever"
+      id="666"
+      img="https://rickandmortyapi.com/api/character/avatar/130.jpeg"
+      location="Crater Lake"
+      name="Ultraname"
+      origin="parts unknown"
+      species="burner"
+      status="undead"
+    />
+    <Character
+      alt="Galactic Federation President"
+      gender="whatever"
+      id="666"
+      img="https://rickandmortyapi.com/api/character/avatar/131.jpeg"
+      location="Crater Lake"
+      name="Ultraname"
+      origin="parts unknown"
+      species="burner"
+      status="undead"
+    />
+    <Character
+      alt="Galactic Federation President"
+      gender="whatever"
+      id="666"
+      img="https://rickandmortyapi.com/api/character/avatar/132.jpeg"
+      location="Crater Lake"
+      name="Ultraname"
+      origin="parts unknown"
+      species="burner"
+      status="undead"
+    />
+    <Character
+      alt="Galactic Federation President"
+      gender="whatever"
+      id="666"
+      img="https://rickandmortyapi.com/api/character/avatar/133.jpeg"
+      location="Crater Lake"
+      name="Ultraname"
+      origin="parts unknown"
+      species="burner"
+      status="undead"
+    />
+    <Character
+      alt="Galactic Federation President"
+      gender="whatever"
+      id="666"
+      img="https://rickandmortyapi.com/api/character/avatar/134.jpeg"
+      location="Crater Lake"
+      name="Ultraname"
+      origin="parts unknown"
+      species="burner"
+      status="undead"
+    />
+    <Character
+      alt="Galactic Federation President"
+      gender="whatever"
+      id="666"
+      img="https://rickandmortyapi.com/api/character/avatar/135.jpeg"
+      location="Crater Lake"
+      name="Ultraname"
+      origin="parts unknown"
+      species="burner"
+      status="undead"
+    />
+    <Character
+      alt="Galactic Federation President"
+      gender="whatever"
+      id="666"
+      img="https://rickandmortyapi.com/api/character/avatar/136.jpeg"
+      location="Crater Lake"
+      name="Ultraname"
+      origin="parts unknown"
+      species="burner"
+      status="undead"
+    />
+    <Character
+      alt="Galactic Federation President"
+      gender="whatever"
+      id="666"
+      img="https://rickandmortyapi.com/api/character/avatar/137.jpeg"
+      location="Crater Lake"
+      name="Ultraname"
+      origin="parts unknown"
+      species="burner"
+      status="undead"
+    />
+  </div>
+  <Footer />
+</Fragment>
+`;
