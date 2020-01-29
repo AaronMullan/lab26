@@ -11,7 +11,7 @@ export default class Footer extends Component {
           <p>Episodes: 31</p>
         </section>
         <section className={styles.acknowledgment}>
-          <p>❮❯ by <a href="#">Axel Fuhrmann</a> 2020</p>
+          <p>❮❯ by <a href="#">Dr Ansel Fiori</a> 2020</p>
         </section>
       </footer>
     );
